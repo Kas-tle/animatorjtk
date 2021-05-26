@@ -1,6 +1,6 @@
 import React from "react"
 import { DiGithubBadge } from "react-icons/di"
-import { FaTwitter, FaLinkedin } from "react-icons/fa"
+import { FaTwitter, FaYoutube } from "react-icons/fa"
 
 export const mainMenuItems = [
   {
@@ -8,44 +8,36 @@ export const mainMenuItems = [
     title: "home",
   },
   {
-    path: "/about",
+    path: "/#about",
     title: "about",
   },
   {
-    path: "/packages",
+    path: "/#packages",
     title: "packages",
   },
   {
-    path: "/contact",
+    path: "/#contact",
     title: "contact",
   },
 ]
 
 export const socialMenuItems = [
   {
-    icon: <FaLinkedin />,
-    url: "https://www.linkedin.com/in/morgan-baker-developer-inverness",
-    name: "LinkedIn",
+    icon: <FaYoutube />,
+    url: "https://www.youtube.com/channel/UC3UfpC2SvjdMRi3LtTDBJbg",
+    name: "YouTube",
   },
   {
     icon: <FaTwitter />,
-    url: "https://www.twitter.com",
+    url: "https://twitter.com/JTK222_",
     name: "Twitter",
   },
   {
     icon: <DiGithubBadge />,
-    url: "https://github.com/bagseye",
+    url: "https://github.com/JTK222",
     name: "GitHub",
   },
 ]
 
 export const footerMenuItems = [
-  {
-    path: "/privacy",
-    title: "privacy",
-  },
-  {
-    path: "/cookies",
-    title: "cookies",
-  },
 ]

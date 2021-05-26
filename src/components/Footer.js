@@ -37,15 +37,12 @@ const Footer = ({ Logo }) => {
               </Link>
             )}
             <address>
-              85 Simone Weil Avenue
+              1200 Park Avenue
               <br />
-              Watton-at-Stone
+              Emeryville, CA
               <br />
-              SG14 8BL
+              94608
             </address>
-            <a className="telephone" href="tel:+004407076009211">
-              07076 009 211
-            </a>
           </div>
         ) : null}
 

@@ -27,7 +27,7 @@ const Navbar = ({ Logo }) => {
         {mainMenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <a href="#">{item.text}</a>
+              <a href="/#about">{item.text}</a>
             </li>
           )
         })}
@@ -60,7 +60,7 @@ export const NavStyles = styled.nav`
       }
 
       @media (min-width: 1200px) {
-        width: 120px;
+        width: 300px;
       }
     }
   }
