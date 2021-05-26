@@ -54,7 +54,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.5 }}
           >
-            JTK is here to help you achieve your business and personal
+            RTK is here to help you achieve your business and personal
             animation goals, all through a stylish animations
           </motion.p>
           <Link to="about" smooth={true} duration={500}>

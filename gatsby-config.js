@@ -8,11 +8,11 @@ const path = require(`path`)
 
 module.exports = {
   siteMetadata: {
-    title: "JTKanimations",
+    title: "RTKanimations",
     titleTemplate: "%s",
-    description: "JTK animates animations with animation",
+    description: "RTK animates animations with animation",
     siteUrl: "https://animatorj.tk",
-    author: "JTKanimations",
+    author: "RTKanimations",
     authorSite: "https://animatorj.tk",
     image: "/yellow-metal-design-decoration.jpg",
     twitterUsername: "@twitter",
