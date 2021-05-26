@@ -141,7 +141,7 @@ const HomePage = () => {
       </Packages>
       <Contact
         id="contact"
-        title="Contact Startup today and see how we can help your business grow"
+        title="Contact JTK today and see how we can help your business grow"
         subtitle="Every second counts when you're looking to get your new business started. Drop JTK a message and one of our representatives will be in contact"
       />
     </>
